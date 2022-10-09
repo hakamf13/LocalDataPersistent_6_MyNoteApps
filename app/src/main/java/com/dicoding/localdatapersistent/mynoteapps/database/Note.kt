@@ -14,11 +14,11 @@ data class Note(
     var id: Int = 0,
 
     @ColumnInfo(name = "title")
-    var title: String ?= null,
+    var title: String? = null,
 
     @ColumnInfo(name = "description")
-    var description: String ?= null,
+    var description: String? = null,
 
     @ColumnInfo(name = "date")
-    var date: String ?= null
+    var date: String? = null
 ) : Parcelable
